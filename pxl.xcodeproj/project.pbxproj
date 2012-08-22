@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5076EEB415D3895F00370DD6 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081EC5B15D386B600668685 /* UIImage+Alpha.m */; };
+		5076EEB615D3896700370DD6 /* UIImage+Pixels.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081EC5D15D386B600668685 /* UIImage+Pixels.m */; };
+		5076EEB715D3896700370DD6 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081EC5F15D386B600668685 /* UIImage+Resize.m */; };
+		5076EEB815D3896700370DD6 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081EC6115D386B600668685 /* UIImage+RoundedCorner.m */; };
 		5081EC4D15D386A400668685 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5081EC4C15D386A400668685 /* Foundation.framework */; };
-		5081EC5215D386A400668685 /* pxl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5081EC5115D386A400668685 /* pxl.h */; };
-		5081EC5415D386A400668685 /* pxl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5081EC5315D386A400668685 /* pxl.m */; };
+		50BC3FE915E2F30200EDE086 /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50BC3FE815E2F30200EDE086 /* CKCalendarView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +22,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				5081EC5215D386A400668685 /* pxl.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +31,16 @@
 		5081EC4915D386A400668685 /* libpxl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libpxl.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5081EC4C15D386A400668685 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5081EC5015D386A400668685 /* pxl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pxl-Prefix.pch"; sourceTree = "<group>"; };
-		5081EC5115D386A400668685 /* pxl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pxl.h; sourceTree = "<group>"; };
-		5081EC5315D386A400668685 /* pxl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pxl.m; sourceTree = "<group>"; };
+		5081EC5A15D386B600668685 /* UIImage+Alpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		5081EC5B15D386B600668685 /* UIImage+Alpha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		5081EC5C15D386B600668685 /* UIImage+Pixels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Pixels.h"; sourceTree = "<group>"; };
+		5081EC5D15D386B600668685 /* UIImage+Pixels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Pixels.m"; sourceTree = "<group>"; };
+		5081EC5E15D386B600668685 /* UIImage+Resize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		5081EC5F15D386B600668685 /* UIImage+Resize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		5081EC6015D386B600668685 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		5081EC6115D386B600668685 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		50BC3FE715E2F30200EDE086 /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		50BC3FE815E2F30200EDE086 /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +83,16 @@
 		5081EC4E15D386A400668685 /* pxl */ = {
 			isa = PBXGroup;
 			children = (
-				5081EC5115D386A400668685 /* pxl.h */,
-				5081EC5315D386A400668685 /* pxl.m */,
+				50BC3FE715E2F30200EDE086 /* CKCalendarView.h */,
+				50BC3FE815E2F30200EDE086 /* CKCalendarView.m */,
+				5081EC5A15D386B600668685 /* UIImage+Alpha.h */,
+				5081EC5B15D386B600668685 /* UIImage+Alpha.m */,
+				5081EC5C15D386B600668685 /* UIImage+Pixels.h */,
+				5081EC5D15D386B600668685 /* UIImage+Pixels.m */,
+				5081EC5E15D386B600668685 /* UIImage+Resize.h */,
+				5081EC5F15D386B600668685 /* UIImage+Resize.m */,
+				5081EC6015D386B600668685 /* UIImage+RoundedCorner.h */,
+				5081EC6115D386B600668685 /* UIImage+RoundedCorner.m */,
 				5081EC4F15D386A400668685 /* Supporting Files */,
 			);
 			path = pxl;
@@ -139,7 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5081EC5415D386A400668685 /* pxl.m in Sources */,
+				5076EEB415D3895F00370DD6 /* UIImage+Alpha.m in Sources */,
+				5076EEB615D3896700370DD6 /* UIImage+Pixels.m in Sources */,
+				5076EEB715D3896700370DD6 /* UIImage+Resize.m in Sources */,
+				5076EEB815D3896700370DD6 /* UIImage+RoundedCorner.m in Sources */,
+				50BC3FE915E2F30200EDE086 /* CKCalendarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +257,7 @@
 				5081EC5915D386A400668685 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
